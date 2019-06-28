@@ -59,7 +59,7 @@ class Review extends Component {
         if(res.data.errors) {
           this.setState({ errors: res.data.errors.errors })
         } else {
-          this.props.history.push(`/api//review/${this.props.match.params._id}`);
+          this.props.history.push(`/restaurant/${this.props.match.params._id}`);
         }
       })
       .catch( err => {
