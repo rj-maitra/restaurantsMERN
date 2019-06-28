@@ -1,0 +1,19 @@
+.container {
+  margin-top: 2rem;
+}
+
+h3 {
+  text-align: center;
+
+}
+a {
+  color: white;
+}
+
+p {
+  color: red; 
+}
+
+* {
+  font-family: 'Fira Sans', sans-serif;
+}

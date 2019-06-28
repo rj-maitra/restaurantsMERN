@@ -1,0 +1,29 @@
+{
+  "name": "restaurants",
+  "version": "0.1.0",
+  "description": "an application that allows users to add, update, and review restaurants",
+  "main": "server.js",
+  "scripts": {
+    "test": "jasmine",
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "restaurants",
+    "coding",
+    "dojo",
+    "react",
+    "mern",
+    "ranjan",
+    "maitra",
+    "spicehound",
+    "food"
+  ],
+  "author": "ranjan maitra (spicehound)",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.6.1"
+  }
+}
